@@ -397,9 +397,22 @@ label {
 }
 
 .image-2 {
-  max-width: 60%;
+  width: 100%;
+  max-width: 100%;
+  aspect-ratio: 4049 / 646;
+  object-fit: cover;
   margin-top: 8rem;
   margin-bottom: 4rem;
+}
+
+.div-block {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 0%;
+  padding-left: 25%;
+  padding-right: 25%;
+  display: flex;
 }
 
 @media screen and (max-width: 991px) {
